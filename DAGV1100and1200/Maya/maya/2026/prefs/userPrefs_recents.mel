@@ -1,0 +1,29 @@
+//Maya Preference 2026 (Release 1)
+//
+//
+
+optionVar -version 3;
+
+// RecentFiles
+optionVar -cat "RecentFiles"
+ -sa "RecentFilesList"
+ -sva "RecentFilesList" "A:/Github/Essentials/DAGV1100and1200/Maya/scenes/Unit5_LabScene.ma"
+ -sva "RecentFilesList" "A:/Github/Essentials/DAGV1100and1200/Maya/scenes/Unit5_DeskThing.ma"
+ -sva "RecentFilesList" "A:/Github/Essentials/DAGV1100and1200/Maya/scenes/Unit4_CurvesLab_Sev-Bernards.mb"
+ -sva "RecentFilesList" "A:/Github/Essentials/DAGV1100and1200/Maya/scenes/Unit5_CurvesLab_Sev-Bernards.mb"
+ -sva "RecentFilesList" "A:/Github/Essentials/DAGV1100and1200/Maya/scenes/Unit6_CurvesLab_Sev-Bernards.mb"
+ -sva "RecentFilesList" "A:/Github/Essentials/DAGV1100and1200/Maya/scenes/Room Scene 1.mb"
+ -iv "RecentFilesMaxSize" 10
+ -sa "RecentFilesTypeList"
+ -sva "RecentFilesTypeList" "mayaAscii"
+ -sva "RecentFilesTypeList" "mayaAscii"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sa "RecentProjectsList"
+ -sva "RecentProjectsList" "A:/Github/Essentials/DAGV1100and1200/Maya"
+ -sva "RecentProjectsList" "C:/Users/caber/OneDrive/Documents/maya/projects/default"
+ -iv "RecentProjectsMaxSize" 10
+ ;
+
